@@ -2,5 +2,6 @@ jupyter==1.0.0
 pandas==1.5.3
 matplotlib==3.7.1
 geopy==2.3.0
-numpy==1.21.5
-
+numpy==1.24.2
+black==23.1.0
+jupyter_black==0.3.3

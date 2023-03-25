@@ -2,9 +2,36 @@
 
 This repository analyzes rental bike rides in munich from the year 2021. For more information see the heading _Dataset "Rides on the MVG bike"_ below.
 
+It is the accompanying repository to this blog post which discusses the findings: https://medium.com/@jonas.hahn/riding-the-data-wave-insights-into-munichs-bike-rental-trends-8330bc4e6c41
+
+The data is prepared for analysis and the following questions are answered:
+
+* How long do people usually rent these bikes?
+* How far do they travel with them?
+* Do people often use them complementary to the other public transport?
+
 ## Requirements
 
-* Python 3.7 (it was tested with this version, but probably new versions also work) 
+* Python 3.7 (it was tested with this version, but probably new versions also work)
+
+### Libraries used
+
+The following python libraries were used. (see `requirements.txt`)
+
+    jupyter==1.0.0
+    pandas==1.5.3
+    matplotlib==3.7.1
+    geopy==2.3.0
+    numpy==1.24.2
+    black==23.1.0
+    jupyter_black==0.3.3
+
+## File Description
+
+* `rental-bike-analysis.ipynb` : Jupyter Notebook containing the data analysis.  
+* `MVG_Rad_Fahrten_2021.zip` : 2021 MVG rental bike data (zipped).   
+
+
 
 ## Getting started
 
@@ -15,6 +42,10 @@ This repository analyzes rental bike rides in munich from the year 2021. For mor
 Unzip the dataset.
 
     unzip MVG_Rad_Fahrten_2021.zip
+
+Install requirements.
+
+    pip install -r requirements.txt
 
 Start the jupyter notebook.
 
